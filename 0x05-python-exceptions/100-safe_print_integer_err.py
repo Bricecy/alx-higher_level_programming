@@ -3,7 +3,7 @@
 def safe_function(fct, *args)
 while True:
     try:
-        a = int("20:"))
+        a = int(input("abc: "))
         break
     except ValueError:
         print("\nThis is not a number. Try again...")
